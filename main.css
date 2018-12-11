@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #99857A;
+}
+img {
+    max-width: 100%;/* DO NOT delete or change this line */
+}
+
+
+#Info {
+  background: #E27B58;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+#SpaceX{
+  background: #C67B5C;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 2rem;
+  padding-top: 2rem;
+}
+
+#Colony {
+  background: #FF9D6F;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+.photo {
+  max-width: 600px;
+  padding-right: 2rem;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+
+.text {
+  max-width: 600px;
+  padding: 0;
+  font-size: .95rem;
+  line-height: 1.2rem;
+}
+
+p {
+  padding: 1rem;
+}
+
+.text h2{
+  text-align: inherit;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+section {
+  max-width: 600px;
+}
+
+footer {
+  text-align: center;
+  font-size: .90rem;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  align-items: center;
+  padding-top: none;
+  background: #8E6A5A;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-right: 1em;
+  font-size: 2rem;
+}
+
+nav ul li {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #379CB2;
+
+}
+a:hover {
+    color: #82E8FF;
+}
